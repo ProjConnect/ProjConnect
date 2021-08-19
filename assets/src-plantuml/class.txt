@@ -1,0 +1,54 @@
+@startuml
+
+class Post{
+  subject: String
+  ownerId: String
+  devId: String
+  body: String
+  supportersUsernameList: List<String>
+  finalProductScore: Review
+  isArchived: Boolean
+  tags: List<String>
+  
+  edit()
+  create()
+  acceptDev()
+  delete()
+  archive()
+}
+
+class UserLogin {
+  username: String
+  email: String
+  password: Int
+  isModerator: Boolean
+  publicData: UserPublicData
+  userId: String
+
+  changeUsername()
+  changePassword()
+  changeEmail()
+}
+
+class UserPublicData {
+  name: String
+  contact: String
+  aboutMe: String
+  score: Float
+  history: List<Post>
+
+  changeName()
+  changeContact()
+  changeAboutMe()
+}
+
+class Review {
+  grade: Float
+  subject: String
+  body: String
+
+  editSubject()
+  editBody()
+}
+
+@enduml

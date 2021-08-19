@@ -1,0 +1,6 @@
+#!/bin/sh
+
+java -jar plantuml.jar ./src-plantuml/class.txt 
+mv src-plantuml/class.png images/class.png
+java -jar plantuml.jar ./src-plantuml/relationship.txt
+mv src-plantuml/relationship.png images/relationship.png
