@@ -1,0 +1,8 @@
+@startUML
+
+Client -> Server : getUserById()
+Server -> Database : getUserById()
+Database -> Server : UserLogin
+Server -> Client : UserPublicData
+
+@endUML

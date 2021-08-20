@@ -1,0 +1,6 @@
+@startUML
+Client -> Server : getPostById()
+Server -> Database : getPostById()
+Database -> Server : Post
+Server -> Client : Post
+@endUML

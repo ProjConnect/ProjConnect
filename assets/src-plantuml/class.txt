@@ -2,10 +2,11 @@
 
 class Post{
   subject: String
-  ownerId: String
-  devId: String
+  ownerId: userId 
+  devId: userId 
   body: String
-  supportersUsernameList: List<String>
+  postId: String
+  supportersIdList: List<userId>
   finalProductScore: Review
   isArchived: Boolean
   tags: List<String>
@@ -35,7 +36,7 @@ class UserPublicData {
   contact: String
   aboutMe: String
   score: Float
-  history: List<Post>
+  history: List<postId>  
 
   changeName()
   changeContact()
