@@ -1,6 +1,6 @@
 @startUML
 Client -> Server : doLogin()
-Server -> DB : getUserByUsername()
+Server -> Database : getUserByUsername()
 Database -> Server : UserLogin
 Server -> Client : token || fail 
 @endUML
