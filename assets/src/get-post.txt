@@ -1,5 +1,5 @@
 @startUML
-Client -> Server : getPostById()
+Client -> Server : GET /post/{id} 
 Server -> Database : getPostById()
 Database -> Server : Post
 Server -> Client : Post

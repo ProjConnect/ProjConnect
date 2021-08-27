@@ -1,6 +1,6 @@
 @startUML
 
-Client -> Server : getUserById()
+Client -> Server : GET /user/{id} 
 Server -> Database : getUserById()
 Database -> Server : UserLogin
 Server -> Client : UserPublicData

@@ -55,3 +55,7 @@ the server returns with only the target's public data.
  the server to lookup for a post by an id, `postId`.
 
 ![assets/img/get-post.png](../../assets/img/get-post.png)
+
+- To get all posts, you do not pass an `id`.
+
+![assets/img/get-all-posts.png](../../assets/img/get-all-posts.png)

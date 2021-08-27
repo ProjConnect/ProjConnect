@@ -1,6 +1,6 @@
 #!/bin/sh
 
-target=('class' 'get-post' 'login' 'relationship' 'show-user')
+target=('class' 'get-post' 'get-all-posts' 'login' 'relationship' 'show-user')
 
 for t in "${target[@]}"; do
   echo "Building target: $t.txt"
