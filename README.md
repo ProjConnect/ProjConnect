@@ -30,4 +30,4 @@ docker volume rm <name of volume>
 
 ## mongo shell
 
-In order to interact with mongoDB, [mongo shell](https://docs.mongodb.com/v4.4/mongo/).
+In order to interact with mongoDB, [mongo shell](https://docs.mongodb.com/v4.4/mongo/) is recommended.
