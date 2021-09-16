@@ -1,0 +1,5 @@
+@startuml
+UserLogin ..> UserPublicData
+UserPublicData ..> Post
+Post ..> Review
+@enduml
