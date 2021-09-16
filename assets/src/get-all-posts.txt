@@ -1,0 +1,6 @@
+@startUML
+Client -> Server : GET /post 
+Server -> Database : getAllPosts()
+Database -> Server : List<Post>
+Server -> Client : List<Post>
+@endUML
